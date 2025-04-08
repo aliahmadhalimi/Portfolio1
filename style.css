@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 .head {
   background-image: url("images/download.jpg");
   height: 400px;
@@ -602,6 +607,11 @@ html{
 
 @media screen and (max-width: 500px){
 
+  nav a {
+    padding: 3px;
+  }
+  
+
   .head-my span{
     display: none;
   }
@@ -621,4 +631,14 @@ html{
     
     
   }
+}
+
+
+@media screen and (max-width: 360px){
+
+  nav a {
+    display: none;
+  }
+
+
 }
