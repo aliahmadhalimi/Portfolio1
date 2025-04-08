@@ -608,10 +608,6 @@ html{
 @media screen and (max-width: 500px){
 
   nav a {
-    padding: 3px;
-    margin-left: 2;
-  }
-  .con{
     display: none;
   }
   
