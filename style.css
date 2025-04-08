@@ -1,0 +1,624 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.head {
+  background-image: url("images/download.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  opacity: 0.8;
+  display: grid;
+  place-items: center;
+}
+
+nav {
+  padding: 15px;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+nav a {
+  color: #777;
+  text-decoration: none;
+  padding: 15px;
+  margin-left: 5px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+.head-my {
+  background-color: rgba(0, 0, 0, 0.99);
+  color: white;
+  padding: 10px;
+  letter-spacing: 5px;
+  /* text-align: center;
+  position: absolute;
+  top: 28%;
+  left: 37%;  
+  transform: translate(-50%, -50);*/
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.head-my h2{
+  text-align: center;
+  width: 500px;
+  border: 2px solid red;
+}
+
+/* start of about part first about  */
+
+.about {
+  padding: 65px 0;
+  margin: 50px 200px;
+}
+
+.about-me1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-me2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #777;
+}
+
+.about-me3 {
+  margin-top: 10px;
+  line-height: 1.5;
+
+}
+
+/* start of about second part */
+
+.about-1 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin-left: 10px; */
+}
+
+.about-1-pic-name {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-1-image {
+  /* border: 2px solid red; */
+  width: 400px;
+  /* width: 100%; */
+  /* background-color: red; */
+  opacity: 0.8;
+}
+
+.about-1-image1{
+  width: 100%;
+}
+
+.about-1-image:hover {
+  opacity: 1;
+}
+
+.about-1-text {
+  /* border: 2px solid black; */
+  margin-left: 50px;
+  line-height: 1.5;
+  color: #777;
+  width: 100%;
+  padding-right: 50px;
+  /* background-color:red; */
+}
+
+/* start of about3 i am really good at */
+
+.about-2-good {
+  margin-top: 100px;
+}
+
+.imgood {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.photography-text {
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+  color: #777;
+}
+
+.photography {
+  height: 40px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.photography-inner {
+  background-color: #616161;
+  width: 90%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.photography-percentage {
+  color: white;
+}
+
+.webdesign-text {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+  color: #777;
+}
+
+.webdesign {
+  height: 40px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.webdesign-inner {
+  background-color: #616161;
+  width: 85%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.webdesign-percentage {
+  color: white;
+}
+
+.photoshop-text {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+  color: #777;
+}
+
+.photoshop {
+  height: 40px;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.photoshop-inner {
+  background-color: #616161;
+  width: 75%;
+  height: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.photoshop-percentage {
+  color: white;
+}
+
+/* start of portfolio part */
+
+.portfolio-projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #616161;
+  padding: 30px;
+}
+
+.project-1 {
+  color: white;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: center;
+}
+
+.portfolio-img {
+  background-image: url("images/download1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: grid;
+  place-items: center;
+}
+
+.portfolio-img-inner {
+  color: white;
+  font-size: 36px;
+  letter-spacing: 10px;
+}
+
+/* start of gallery  */
+
+.gallery-content{
+  margin: 50px 0;
+
+}
+
+.gallery-head{
+  text-align: center;
+  font-size: 35px;
+  color: #777;
+  text-transform: uppercase;
+}
+
+.gallery-para{
+  text-align: center;
+  /* font-size: 20px; */
+  margin-top: 10px;
+  color: #777;
+  line-height: 1.5;
+}
+
+
+.gallery{
+  margin: 20px 200px;
+  /* border: 2px solid black; */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.gallery-images1{
+  background-image: url("images/p1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+.gallery-images2{
+  background-image: url("images/p2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+.gallery-images3{
+  background-image: url("images/p3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+.gallery-images4{
+  background-image: url("images/p4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+
+.gallery1{
+  margin: 20px 200px;
+  /* border: 2px solid black; */
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.gallery-images5{
+  background-image: url("images/p5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+.gallery-images6{
+  background-image: url("images/p6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+.gallery-images7{
+  background-image: url("images/p7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+.gallery-images8{
+  background-image: url("images/p8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 22%;
+  margin-left: 20px;
+}
+
+
+.hover:hover{
+  opacity: 0.70;
+}
+
+
+
+/* start of contact section */
+
+.contact-img {
+  background-image: url("images/download2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: grid;
+  place-items: center;
+  opacity: 0.85;
+}
+
+.contact-text {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 10px;
+  margin-top: 25px;
+}
+
+.contact-form {
+  margin: 50px 200px;
+}
+
+.contact-header {
+  text-align: center;
+  font-size: 30px;
+  color: #777;
+}
+
+.contact-p {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+}
+
+.contact-form1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.contact-pic {
+  background-image: url("images/map.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 250px;
+  height: 150px;
+}
+
+.contact-texts-inputs {
+  /* border: 2px solid black; */
+  margin-left: 50px;
+  line-height: 1.8;
+  font-size: 20px;
+  color: #777;
+}
+
+.right-upper-text {
+  margin-top: 20px;
+}
+
+.first-input1 {
+  width: 43%;
+  padding: 10px;
+}
+
+.first-input2 {
+  width: 43%;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.first-input3 {
+  margin-top: 10px;
+  width: 93%;
+  padding: 10px;
+}
+
+
+.contact-btn{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    float: right;
+    margin-top: 10px;
+    margin-right: 22px;
+}
+
+.contact-btn:hover{
+    background-color: #777;
+    color: black;
+}
+
+/* star of the footer spart */
+
+
+.footer{
+    background-color: #777;
+    display: grid;
+    place-items: center;
+    height: 150px;
+}
+
+.footer-content{
+    /* background-color: red; */
+    display: grid;
+    place-content: center;
+}
+
+.footer-btn{
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+
+
+.footer-text{
+    color: white;
+    font-size: 20px;
+}
+
+/* .footer:hover{
+    background-color: darkcyan;
+    color: black;
+
+} */
+
+
+.to-top{
+    display: grid;
+    place-items: center;
+    color: white;
+    /* font-size: ; */
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* web site responsiveness */
+
+
+
+
+
+
+@media screen and (max-width: 850px){
+
+  .about {
+    padding: 20px 0;
+    margin: 50px 20px;
+  }
+
+  .about-1-text{
+    padding-left: 20px;
+  }
+
+  .gallery, .gallery1{
+    margin: 20px 20px;
+  }
+
+  .gallery-images1, .gallery-images2, .gallery-images3, .gallery-images4, .gallery-images5, .gallery-images6, .gallery-images7, .gallery-images8{
+    width: 100%;
+  }
+}
+
+
+/* phone version  */
+
+@media screen and (max-width: 700px){
+
+  .about-1-text{
+    display: none;
+  }
+
+  .about-1-image{
+    width: 100%;
+  }
+
+  .about-1-text{
+    padding: 0;
+  }
+
+  .about-1-text{
+    padding-left: 20px;
+  }
+
+
+
+  .photoshop, .photoshop-inner, .photography, .photography-inner, .webdesign, .webdesign-inner{
+    height: 25px;
+  }
+
+  .portfolio-projects{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .gallery, .gallery1{
+    display: none;
+  }
+
+  .contact-pic{
+    display: none;
+  }
+
+  .contact-form{
+    margin: 50px 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 500px){
+
+  .head-my span{
+    display: none;
+  }
+
+  .contact-texts-inputs{
+    margin-left:0 ;
+  }
+  
+  .contact-inputs input{
+    width: 100%;
+    margin: 20px 0;
+  }
+
+
+  .first-input2{
+    margin-left: 0;
+    
+    
+  }
+}
