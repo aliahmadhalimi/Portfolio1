@@ -611,6 +611,9 @@ html{
     padding: 3px;
     margin-left: 2;
   }
+  .con{
+    display: none;
+  }
   
 
   .head-my span{
